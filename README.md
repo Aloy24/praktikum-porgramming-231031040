@@ -4,3 +4,4 @@
 <div> prodi : sistem informasi (B) <div>
 
 * praktikum 1 : pengenalan variabel `praktikum-b1.py`
+* praktikum 2 : Operator `praktikum-b2.py`
