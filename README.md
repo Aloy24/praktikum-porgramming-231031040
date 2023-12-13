@@ -5,4 +5,4 @@ program praktikum matakuliah pengantar pemrograman
 <h1> NIM : 231031040. </h1>
 <h1> prodi : sistem informasi. </h1>
 
-*praktikum 1 : pengenalan variabel `praktikum-b1.py`
+* praktikum 1 : pengenalan variabel `praktikum-b1.py`
