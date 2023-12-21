@@ -1,0 +1,25 @@
+biodata = {'nama'   : 'awal ramadhan nasrun',
+'nim'                         :  'b231031040',
+'kelas'                      :  'SI23B',
+'prodi'                       :  'sistem informasi',
+'sks'                          :  '20',
+'hobi'                        :  'workout',
+'isi matkul'               :  '8',
+'email'                      : 'awalnasrullah406@gmail.com',
+'agama'                   :  'islam',
+'no telp'                   : '08875297512'
+}
+
+print(biodata)
+print()
+print('NAMA      :', biodata['nama'])
+print('NIM       :', biodata['nim'])
+print('KELAS     :',biodata['kelas'])
+print('PRODI     :',biodata['prodi'])
+print('SKS       :',biodata['sks'])
+print('ISI MATKUL:',biodata['isi matkul'])
+print('HOBI      :',biodata['hobi'])
+print('EMAIL     :',biodata['email'])
+print('AGAMA     :',biodata['agama'])
+print('NO TELP   :',biodata['no telp'])
+
