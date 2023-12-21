@@ -1,0 +1,26 @@
+import random
+
+angka = [1,2,3,4,5,6,7,8,9,10]
+
+angka_benar = random.choice(angka)
+
+a = True
+limit = 3
+i = 0
+
+while a:
+	i += 1
+	pilihan = int(input("Masukan angka acak(1-10) : "))
+
+	if pilihan == angka_benar:
+		print("Tebakan kamu Benar!!")
+		print("angka benar = ",angka_benar)
+		a = False
+	elif pilihan > len(angka):
+		print("Angka kamu harus 1-10 tidak boleh kurang dan lebih!!")
+	else:
+		if i == limit:
+			print("Anda gagal:(")
+			a = False
+		else:
+			print(f"Salah, kamu memiliki {limit-i} kesempatan lagi")
